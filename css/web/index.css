@@ -1,0 +1,443 @@
+#tb_mess tr td:nth-child(3),#tb_mess tr td:nth-child(5),#tb_mess tr td:nth-child(6){
+	font-size: 13px;
+	#color: green
+}
+#crt_nw_cl_ttl{
+	font-weight: bolder;
+	font-family: Rockwell;
+	text-decoration: underline;
+	color: #2697ab;
+	font-style: oblique;
+}
+
+#evtstSub:hover,#logbtn:hover,#okset:hover,#add_cls_btn:hover,#nw_chng_pssw:hover,#sttsk:hover{
+	cursor: pointer;
+	color:#a23201;
+}
+#crt_nw_cl_ttl_av{
+	cursor:pointer;
+}
+#crt_nw_cl_ttl_av:hover{
+	color: #396b79;
+}
+#sub_new_clss:hover,#sub_new_tchr:hover{
+	cursor:pointer;
+	color: #9bacc7;
+}
+#hdn_crt_nw_cls,#hdn_crt_nw_crs,#hdn_crt_nw_stdnt{
+	font-weight: bolder;
+	color: red;
+}
+#refree_cl,#refree_crs,#refree_tch,#refree_xkl{
+	color: #fe5432;
+	font-size: 20px
+}
+#refree_cl:hover,#refree_crs:hover,#refree_tch:hover,#refree_xkl:hover{
+	cursor: pointer;
+	color: #e8a93a;
+}
+#tbl_cntt{
+		margin-top: -20px;
+		max-height: 150%;
+		width: 70%;
+		position: absolute;
+		overflow: auto;
+}
+#cl_fr_tbl{
+	height: 100%
+}
+#shw_crss:hover{
+	cursor: pointer;
+	background-color: #5b564f;
+}
+#shw_crss:hover,#glSwCls:hover #shw_icrs{
+	color: #c3871f;
+}
+#shw_crss{
+	font-size: 20px
+}
+#spcrcl{
+	color: red;
+	font-weight: bolder;
+}
+#tchusrnm,#tchpsswd{
+	font-weight: bolder
+}
+#cc_tsh{
+	font-weight: bolder;font-style: oblique;
+}
+
+#gllyyd{
+ 
+	animation:kabaka 10s;
+	-webkit-animation:kabaka 10s;
+	-moz-animation:kabaka 10s;
+	animation-play-state:running;
+	-webkit-animation-play-state:running;
+	-moz-animation-play-state:running;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	animation-direction:alternate;
+	-webkit-animation-direction:alternate;
+	-moz-animation-direction:alternate;
+}
+@keyframes kabaka{
+	0%{color: #c51919;}
+	10%{color: #abc519;}
+	20%{color: #2d0336;}
+	30%{color: #c51919;}
+	40%{color: #abc519;}
+	50%{color: #2d0336;}
+	60%{color: #c51919;}
+	70%{color: #abc519;}
+	80%{color: #2d0336;}
+	90%{color: #c51919;}
+	95%{color: #abc519;}
+	100%{color: #2d0336;}
+}
+-@-webkit-keyframes kabaka{
+	0%{color: #c51919;}
+	10%{color: #abc519;}
+	20%{color: #2d0336;}
+	30%{color: #c51919;}
+	40%{color: #abc519;}
+	50%{color: #2d0336;}
+	60%{color: #c51919;}
+	70%{color: #abc519;}
+	80%{color: #2d0336;}
+	90%{color: #c51919;}
+	95%{color: #abc519;}
+	100%{color: #2d0336;}
+}
+-@-moz-keyframes kabaka{
+	0%{color: #c51919;}
+	10%{color: #abc519;}
+	20%{color: #2d0336;}
+	30%{color: #c51919;}
+	40%{color: #abc519;}
+	50%{color: #2d0336;}
+	60%{color: #c51919;}
+	70%{color: #abc519;}
+	80%{color: #2d0336;}
+	90%{color: #c51919;}
+	95%{color: #abc519;}
+	100%{color: #2d0336;}
+}
+#or_tch_tchr,#or_tch_cls,#or_tch_crs{
+	font-weight: bolder;
+}
+#chs_slctd{
+	color: #f39898;
+	font-style: italic;
+}
+#sub_ddv_bd{
+	min-height: 500px;
+	border:4px #23afbf solid;
+	border-bottom: 0px;
+	border-radius: 5%;
+	text-align: center;
+	background-color: transparent;
+	background-image: none;
+}
+#left_mns_reg_ul{
+	display: block;
+}
+
+#dgdgdga{
+	height: 400px;
+	position: fixed;
+}
+#crt_nw_cl_ttl_st{
+	font-weight: bolder;
+	font-family: Rockwell;
+	text-decoration: underline;
+	color: #2697ab;
+	font-style: oblique;
+}
+#nw_st_tb td:first{
+	text-align: left;
+}
+#nw_st_tb{
+	text-align: left;
+}
+#icon_warning_sign{
+	font-size: 20px;	
+}
+#icon_eye_open_cont,#icon_warning_sign{
+	color: #0a8539;
+	}
+#btn_inf_und_new,#btn_inf_und_ve,#btn_inf_und_mod{
+	font-weight: bolder;
+}
+#btn_inf_und_new:hover,#btn_inf_und_ve:hover,#btn_inf_und_mod:hover{
+	background-color: #35312a;
+	color: #fffff1;
+}
+#nw_st_n_av_cl{
+	color: red;
+}
+#recent_stus{
+	float: right;
+	max-height: 450px;
+	overflow: auto;
+	}
+#avlb_clss{
+	margin-top:3px;
+	text-align: center;
+	font-weight: bolder;
+	border-radius: 0px 20px 0px 0px
+
+}
+#hhdd_sub_new_clss{
+	float: left;
+	font-size: 25px;
+	color: #694b10;
+	font-weight: bolder;
+}
+#hhdd_sub_new_clss:hover{
+	cursor: pointer;
+	color: #c8a562;
+}
+
+.tbl_ft_nnms,.tbl_ft_clls{
+	font-size: 11px;
+	float: left;
+	text-align: left;]
+}
+#tbl_hd_rec_st{
+	background-color: #a8afc0
+}
+#allnw_usrname{
+	font-weight: bolder;
+	font-style: oblique;
+	font-size: 35px
+
+}
+#nw_usrname{
+	color: #4f4107;
+}
+#nw_frp{
+	font-size: 19px;
+}
+#resp_nwps{
+	font-weight: bolder;
+	color: red;
+}
+
+#resp_lg{
+	color: #365708;
+	font-weight: bolder;
+	font-style:italic;
+}
+#ntyt{
+	color: #e02121
+}
+#ntyt:hover{
+	
+}
+#stsk_mmk_tt{
+	font-size: 30px
+}
+#mre,#mre_ovl{
+	width: 30%;
+	height: 50%;
+}
+#tl_tsk{
+	font-weight: bolder;
+	color: #000;
+	list-style-type: arabic-indic;
+}
+
+#tsk_nnmm{
+	min-width: 600px;
+}
+.tsk_mmk{
+	float: right;
+}
+#upsc{
+	color: #7c2828;
+	font-stretch: extra-condensed;;
+	font-family: Courier New;
+	font-size: 30px;
+	font-weight: lighter;
+}
+#tbl_ttt_tsk{
+	color: #0d5d2b;
+	font-weight: bolder;
+	font-style: oblique;
+	text-decoration: underline;
+	text-underline-position: auto;
+}
+#md{
+	color: #05b02d;
+	font-weight: bolder;
+}
+#tbl_tcr_nmm{
+	font-size: 10px;
+	font-weight: bolder;
+	font-style: oblique;
+}
+
+#sel_iin_one,#sel_iin_two{
+	background-color: #cdf2f8;
+	border: 1px solid #000;
+	width: 50%
+
+}
+#sel_iin_one_rad{
+	float: right;
+	position: relative;
+	margin-top:4px;
+
+}
+#sel_iin_one_rad,#sel_iin_two_rad{
+transform: scale(2);
+}
+#sel_iin_two_spn{
+	text-align: right;
+	float: right;
+}
+#sel_iin_one_spn,#sel_iin_two_spn{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #11383f;
+}
+#for_ins_manually{
+	display: none
+}
+#for_ins_attach{
+	display: block;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+#ok_attach:hover{
+	cursor: pointer;
+}
+#newovlresp{
+	font-weight: bolder;
+	color: red;
+	font-size: 14px;
+	text-transform: capitalize;
+
+}
+.btn:hover{
+	cursor: pointer;
+}
+#ssdbtnn button{
+	font-weight: bolder;
+	font-style: oblique;
+}
+#cnt_chr_resp{
+	color: #ebac16;
+	font-style: oblique;
+	font-weight: bolder;
+	margin-left: 50px;
+}
+#comb_newresp{
+	overflow: auto;
+	position: absolute;
+}
+#resp_no{
+	color: #f00;
+}
+#resp_cmbtk{
+	float: right;
+	text-align: right;
+	font-weight: bolder;
+}
+#crt_nw_cl_ttl_cmbb{
+	font-weight: bolder;
+	font-family: Rockwell;
+	text-decoration: underline;
+	color: #2697ab;
+	font-style: oblique;
+	text-align: center;
+	position: fixed;
+}
+#th_cl_ttl_cmbb{
+margin-top: 5%;
+}
+.cmbx_cmb_tsk{
+	width: 40px;
+	height: 40px;
+}
+#ssasa{
+	overflow: auto;
+}
+#fssd{ position: fixed;max-width: 25% }
+#cmb_cnt_chr_resp_cmb{
+	color: #e2a465;
+	float: right;
+	text-align: right;
+	font-weight: bolder;
+}
+#x_ancmts_cls:hover{
+	cursor: pointer;
+}
+#yscmb_resp{
+	color: red;
+	font-weight: bolder;
+	margin-left: -5px;
+	font-size: 20px
+}
+#hllamcnt{
+	font-weight: bolder;
+	color: #0d555d;
+	font-family:Tempus Sans ITC;
+	font-style:italic;
+	position: relative;
+}
+#anncEexampleModalLabel{
+	margin-left: -250PX;
+}
+#mmes_dtls_snt .form-control{
+	height: 40px;
+}
+#td_evts_tl1,#td_evts_tl2,#td_evts_tl3,#td_evts_tl4,#td_evts_tl5,#td_evts_tl6{
+	background:linear-gradient(#6aa068,#abc6aa);
+	font-weight: bolder;font-family: Mongolian Baiti;color: #0e6709
+}
+#td_evts_1:hover #td_evts_tl1{
+		color:#070231;font-size:16px;font-weight:bolder;background:linear-gradient(#c3c8bc,#ccf892);
+		
+}
+#td_evts_2:hover #td_evts_tl2{
+		color:#070231;font-size:16px;font-weight:bolder;background:linear-gradient(#c3c8bc,#ccf892);
+		
+}
+#td_evts_3:hover #td_evts_tl3{
+		color:#070231;font-size:16px;font-weight:bolder;background:linear-gradient(#c3c8bc,#ccf892);
+		
+}
+#td_evts_4:hover #td_evts_tl4{
+		color:#070231;font-size:16px;font-weight:bolder;background:linear-gradient(#c3c8bc,#ccf892);
+		
+}
+#td_evts_5:hover #td_evts_tl5{
+		color:#070231;font-size:16px;font-weight:bolder;background:linear-gradient(#c3c8bc,#ccf892);
+		
+}
+#td_evts_6:hover #td_evts_tl6{
+		color:#070231;font-size:16px;font-weight:bolder;background:linear-gradient(#c3c8bc,#ccf892);
+		
+}
+

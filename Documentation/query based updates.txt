@@ -1,0 +1,16 @@
+==>Check & Fetch each teacher with total_task given,and marked to calculate not yet marked
+
+SELECT tis_tasks.task_teacher,tis_count_teacher_tasks.count_tt_count AS total,count(tis_tasks.task_id) AS marked
+ FROM tis_tasks INNER JOIN tis_count_teacher_tasks ON tis_tasks.task_teacher=tis_count_teacher_tasks.count_task_teacher 
+AND tis_tasks.task_xkul=tis_count_teacher_tasks.count_task_xkul WHERE task_xkul='5' AND task_status='Md' 
+GROUP BY tis_tasks.task_teacher
+
+
+==>Update each teacher with his total task given~~When registering taks
+UPDATE tis_count_teacher_tasks SET tis_count_teacher_tasks.count_tt_marked=(SELECT count(tis_tasks.task_id) FROM tis_tasks 
+WHERE tis_tasks.task_xkul='5' AND tis_tasks.task_teacher=tis_count_teacher_tasks.count_task_teacher GROUP BY tis_tasks.task_teacher);
+
+==>Update each teacher with his task marked given~~When Marking task
+UPDATE tis_count_teacher_tasks SET tis_count_teacher_tasks.count_tt_marked=(SELECT count(tis_tasks.task_id) FROM tis_tasks 
+WHERE tis_tasks.task_xkul='5' AND tis_tasks.task_teacher=tis_count_teacher_tasks.count_task_teacher AND tis_tasks.task_status='Md' 
+GROUP BY tis_tasks.task_teacher);
